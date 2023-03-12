@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Neue-Montreal_r;
+  src: url('fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+  font-family: Neue-Montreal_b;
+  src: url('fonts/NeueMontrealBold.otf');
+}
+
+html, body{
+  font-family: Neue-Montreal_r;
+  background-color: white;
+}
+
+main{
+   max-width: 1200px;
+   margin: 0 auto;
+   overflow: hidden; 
+}
+
+
+.header{
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+
+.nav{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav .logo{
+   font-weight: 200;
+   font-size: 20px;
+   letter-spacing: 0.5px;
+   color: white;
+   
+}
+
+
+
+/*.menu-toggle-btn {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 100000;
+}
+
+.span {
+  height: 2px;
+  background-color: white;
+  width: 24px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.span::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  height: 2px;
+  background-color: white;
+  transform: translateY(-4px);
+  width: 24px;
+  transition: all 0.3s;
+  top: -3px;
+  cursor: pointer;
+}
+
+.active .span {
+  transform: rotate(45deg);
+}
+
+.active .span::before {
+  top: unset;
+  transform: rotate(-90deg);
+}
+
+.active:hover .span::before {
+  top: unset;
+}
+
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #111111;
+  color: #fff;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.navegation{
+  line-height: 0.9;
+}
+
+
+.link1, 
+.link2, 
+.link3, 
+.link4{
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+};*/
+
+
+.txt-home h1{
+   font-size: 50px;
+}
+
+
+
+
+
+
+
